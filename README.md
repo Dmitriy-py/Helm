@@ -120,8 +120,7 @@ kubectl create namespace app2
    * Релиз 2 (с измененным тегом frontend) в app1: `helm install app1-v2 ./my-multi-app --namespace app1 --set                    frontend.image.tag="1.27.0"`
    * Релиз 3 (с измененным тегом backend) в app2: `helm install app2-prod ./my-multi-app --namespace app2 --create-               namespace      --set backend.image.tag="0.5.0"`
 
-<img width="1920" height="1080" alt="Снимок экрана (2921)" src="https://github.com/user-attachments/assets/ac717260-0303-4668-93b5-96fa31da040e" />
-
+<img width="1920" height="1080" alt="Снимок экрана (2922)" src="https://github.com/user-attachments/assets/efe52efb-b279-43fc-a9f7-0120a7700074" />
 
 ## 3. Результаты проверки
 
